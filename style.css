@@ -1,0 +1,355 @@
+body {
+  margin: 0;
+  font-family: "Architects Daughter", cursive;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Englebert', sans-serif;
+        font-family: 'Handlee', cursive;
+        font-family: 'Kodchasan', sans-serif;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-family: 'Orbitron', sans-serif;
+        font-family: 'Stick No Bills', sans-serif;
+        font-family: 'Telex', sans-serif;*/
+}
+/* ---- navigation head----------------------- */
+nav {
+  text-align: right;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0px;
+  background-color: rgb(16, 40, 100);
+  position: sticky;
+  top: 0px;
+  left: 0;
+  right: 0;
+}
+
+nav a {
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  background-color: rgb(16, 40, 100);
+  padding: 10px 15px;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+nav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(16, 40, 100);
+}
+
+/* ---- navigation buttons icons------------- */
+.buttonright {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  padding-right: 30px;
+}
+
+.twobutton {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding: 30px;
+}
+
+.buttonleft {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  padding-left: 30px;
+}
+
+/* ---- navigations buttons text------------- */
+
+#box2 a {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 150px;
+  border-radius: 15px;
+  font-size: 20px;
+  margin: 0px 50px;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* -------- container for positioning -------------- */
+#box {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+#box2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+#innerbox {
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+/* -------- sections ----------------------- */
+section {
+  min-height: 100vh;
+}
+
+section#start,
+section#skills,
+section#contact {
+  background-color: rgb(255, 255, 255);
+  color: rgb(16, 40, 100);
+}
+
+section#aboutme,
+section#projects,
+section#end {
+  background-color: rgb(16, 40, 100);
+  color: rgb(255, 255, 255);
+}
+
+/* -------- article classes -------------- */
+.aboutme {
+  background-color: rgb(255, 255, 255);
+  color: rgb(16, 40, 100);
+  width: 500px;
+  height: 400px;
+  border-radius: 15px;
+  margin: 50px 25px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.skills {
+  background-color: rgb(16, 40, 100);
+  color: rgb(255, 255, 255);
+  width: 250px;
+  height: 400px;
+  border-radius: 15px;
+  margin: 50px 25px;
+  padding: 10px;
+  font-size: 16px;
+  text-align: left;
+  /*border: solid red; */
+}
+
+.projects {
+  background-color: rgb(255, 255, 255);
+  color: rgb(16, 40, 100);
+  width: 250px;
+  height: 400px;
+  border-radius: 15px;
+  margin: 50px 25px;
+  padding: 10px;
+  text-align: center;
+  /*border: solid red; */
+}
+
+.contact {
+  background-color: rgb(16, 40, 100);
+  color: rgb(255, 255, 255);
+  width: 250px;
+  height: 400px;
+  border-radius: 15px;
+  margin: 50px 25px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: left;
+}
+
+/* ------ headlines ------------- */
+
+h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  padding-top: 80px;
+}
+
+h3 {
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#h3form {
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+/* ------ head "lines"   :-)  ------------------- */
+
+hr {
+  border: 2px solid rgb(255, 0, 0);
+}
+
+/* --------- paragraphs ---------------------- */
+.p1 {
+  text-align: center;
+  font-size: 120px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.p2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.p3 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.p4 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.p5 {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.p6 {
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* --------- image ---------------------- */
+#bild {
+  max-width: 250px;
+  border-radius: 15px;
+  margin: 50px;
+}
+
+/* ------  for vertical dividing icons and paragraphs--------------- */
+
+#icon {
+  width: 50px;
+  height: 300px;
+}
+
+#add {
+  width: 200px;
+  height: 300px;
+}
+
+/* ---------- formular --------------------- */
+label {
+  width: 100px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 250px;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  width: 150px;
+  padding: 10px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-family: "Architects Daughter", cursive;
+}
+
+textarea {
+  width: 250px;
+  height: 100px;
+  resize: vertical;
+  vertical-align: top;
+  padding: 10px;
+}
+
+:focus {
+  outline: none;
+  background-color: rgb(16, 40, 100);
+  color: white;
+}
+/* ------------- icons ------------------ */
+[name="arrow-back-outline"],
+[name="arrow-forward-outline"],
+[name="arrow-up-outline"] {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 20%;
+  padding: 10px;
+}
+
+[name="color-palette-outline"],
+[name="desktop-outline"],
+[name="cut-outline"] {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  padding-left: 15px;
+}
+
+[name="construct-outline"] {
+  background-color: rgb(255, 255, 255);
+  color: rgb(16, 40, 100);
+  font-size: 50px;
+  border-radius: 20%;
+  padding: 10px;
+}
+
+[name="person-outline"],
+[name="home-outline"],
+[name="call-outline"],
+[name="mail-outline"] {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+/* ------------ footer ------------------ */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(16, 40, 100);
+  color: rgb(255, 255, 255);
+  height: 70px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/*    ion-icon { font-size: 30px; padding-top: 10px;}
+    [name="logo-instagram"] { color:red}
+    [name="logo-facebook"] { color:blue}
+    [name="logo-github"] {color: black}
+    [name="logo-pinterest"] {color:red}
+    [name="mail-outline"] { color:blue}*/
